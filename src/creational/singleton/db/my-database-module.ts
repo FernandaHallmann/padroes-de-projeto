@@ -1,4 +1,3 @@
-// @ts-ignore
 import { User } from '../interfaces/user';
 
 const users: User[] = [];

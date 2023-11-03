@@ -36,3 +36,9 @@
 
 - Garante que uma classe tenha só uma instância no programa e fornece um ponto de acesso global para a mesma.
 - Usado quando uma classe precisa ter somente uma instância disponível em todo o programa.
+
+#### Builder
+
+- Separa a construção de um objeto complexo da sua representação de modo que o mesmo processo de construção possa criar diferentes representações.
+- O padrão sugere a separação da criação e utilização do objeto.
+- Trata da criação de objetos complexos.
