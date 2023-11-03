@@ -30,6 +30,8 @@
         10. *Strategy*
         11. *Visitor*
 
+### Creational
+
 #### Singleton
 
 - Garante que uma classe tenha só uma instância no programa e fornece um ponto de acesso global para a mesma.
