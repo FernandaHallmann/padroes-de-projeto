@@ -1,0 +1,31 @@
+# Padrões de projeto
+
+- São soluções para problemas recorrentes.
+- Popularizados pelo livro "Padrões de projeto - Soluções reutilizáveis de software orientado a objetos" (padrões de GoF - Gangue dos quatro, pois foram 4 pessoas que escreveram o livro).
+- São divididos em três categorias:
+	1. **Creational:** abstrair o processo de como objetos são criados.
+		1. *Abstract factory*
+		2. *Factory Method*
+		3. *Builder*
+		4. *Prototype*
+		5. *Singleton*
+	2. **Structural:** composição de classes e objetos.
+		1. *Adapter*
+		2. *Bridge*
+		3. *Composite*
+		4. *Decorator*
+		5. *Façade*
+		6. *Flyweight*
+		7. *Proxy*
+	3. **Behavioural:** caracterizam como as classes e objetos interagem e distribuem responsabilidades na aplicação.
+		1. *Interpreter*
+		2. *Template method*
+		3. *Chain of responsibility*
+		4. *Iterator*
+		5. *Command*
+		6. *Mediator*
+		7. *Memento*
+		8. *Observer*
+		9. *State*
+		10. *Strategy*
+		11. *Visitor*
