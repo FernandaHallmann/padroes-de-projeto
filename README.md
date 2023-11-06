@@ -70,6 +70,11 @@
 - Faz exatamente o que um adaptador da vida real faz.
 - É muito usado para definir limites dentro de camadas de aplicação.
 
+#### Bridge
+
+- Desacopla uma abstração da sua implementação, de modo que as duas possam variar e evoluir independentemente.
+- A diferença entre Adapter e Bridge está nas suas intenções, o Adapter faz as coisas funcionarem APÓS elas terem sido projetadas, o Bridge faz funcionar ANTES que existam.
+
 #### Composite
 
 - Se preocupa com a forma como os objetos são compostos para formar estruturas maiores.
