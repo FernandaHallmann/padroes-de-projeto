@@ -32,6 +32,12 @@
 
 ### Creational
 
+#### Factory Method
+
+- Define uma interface para criar um objeto, mas deixa as subclasses decidirem que classe instanciar. O Factory Method permite adiar a instanciação para as subclasses.
+- Lida com a criação de objetos.
+- Oculta a lógica de instanciação do código cliente. O método fábrica será responsável por instanciar as classes desejadas.
+
 #### Builder
 
 - Separa a construção de um objeto complexo da sua representação de modo que o mesmo processo de construção possa criar diferentes representações.
