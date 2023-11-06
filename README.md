@@ -81,3 +81,9 @@
 - Compõe objetos em estruturas de árvore para representar hierarquias partes/todo.
 - Permite aos clientes tratarem de maneira uniforme objetos individuais e composições de objetos.
 - Solução para estruturas complexas que podem ser tratadas de maneira uniforme.
+
+#### Decorator
+
+- Agrega responsabilidades adicionais a um objeto dinamicamente. Fornece uma alternativa flexível ao uso de subclasses para extensão de funcionalidades.
+- Usa composição ao invés de herança.
+- Usado para adicionar funcionalidades a objetos em tempo de execução.
