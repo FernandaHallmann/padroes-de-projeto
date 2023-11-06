@@ -36,5 +36,12 @@ const smartphone = new ProductLeaf('iPhone', 1000);
 
 const productBox = new ProductComposite();
 productBox.add(tShirt, mug, smartphone);
+
+const tablet = new ProductLeaf('iPad', 2000);
+const kindle = new ProductLeaf('Kindle', 300);
+const anotherProductBox = new ProductComposite();
+anotherProductBox.add(tablet, kindle);
+productBox.add(anotherProductBox);
+
 console.log(productBox);
-console.log(productBox.getPrice()); // 1079.8
+console.log(productBox.getPrice());
