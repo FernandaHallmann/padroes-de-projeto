@@ -64,6 +64,12 @@
 
 ### Structural
 
+#### Adapter
+
+- Converte a interface de uma classe em outra interface esperada pelos clientes. O adapter permite que certas classes trabalhem em conjunto.
+- Faz exatamente o que um adaptador da vida real faz.
+- É muito usado para definir limites dentro de camadas de aplicação.
+
 #### Composite
 
 - Se preocupa com a forma como os objetos são compostos para formar estruturas maiores.
