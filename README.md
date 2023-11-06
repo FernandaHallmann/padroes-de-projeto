@@ -32,6 +32,14 @@
 
 ### Creational
 
+#### Abstract Factory
+
+- Fornece uma interface para criação de famílias de objetos relacionados ou dependentes sem especificar suas classes concretas.
+- Geralmente é composto por múltiplos Factory Methods.
+- Separa o código que cria do código que usa.
+- Fácil implementação de novas famílias de objetos.
+- Programação focada em interfaces e não em implementações.
+
 #### Factory Method
 
 - Define uma interface para criar um objeto, mas deixa as subclasses decidirem que classe instanciar. O Factory Method permite adiar a instanciação para as subclasses.
@@ -53,3 +61,12 @@
 
 - Garante que uma classe tenha só uma instância no programa e fornece um ponto de acesso global para a mesma.
 - Usado quando uma classe precisa ter somente uma instância disponível em todo o programa.
+
+### Structural
+
+#### Composite
+
+- Se preocupa com a forma como os objetos são compostos para formar estruturas maiores.
+- Compõe objetos em estruturas de árvore para representar hierarquias partes/todo.
+- Permite aos clientes tratarem de maneira uniforme objetos individuais e composições de objetos.
+- Solução para estruturas complexas que podem ser tratadas de maneira uniforme.
