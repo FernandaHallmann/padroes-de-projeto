@@ -110,3 +110,12 @@
   - **Proxy Remoto:** controla acesso a recursos que estão em servidores remotos.
   - **Proxy de Proteção:** controla acesso a recursos que possam necessitar autenticação ou permissão.
   - **Proxy Inteligente:** além de controlar acesso ao objeto real, também executa tarefas adicionais para saber quando e como executar determinadas ações.
+
+### Behavioural
+
+#### Strategy
+
+- Define uma família de algoritmos, encapsula cada um deles e os faz intercambiáveis. Permite que o algoritmo varie independentemente dos clientes que o utilizam.
+- Separa a regra de negócio de variações de algoritmos que possam existir.
+- Define uma família de algoritmos cada uma com uma variação diferente.
+- Permite a criação de vários algoritmos sem a necessidade de condicionais.
