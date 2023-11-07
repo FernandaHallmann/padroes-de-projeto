@@ -92,3 +92,13 @@
 
 - Fornece uma interface unificada para um conjunto de interfaces em um subsistema. Define uma interface de nível mais alto que torna o subsistema mais fácil de ser usado.
 - Facilita a vida do código ao criar um objeto de fachada para um sistema mais complexo.
+
+#### Proxy
+
+- Fornece um substituto ou marcador de localização para outro objeto para controlar o acesso a esse objeto.
+- Usa um objeto "proxy" que finge ser o objeto real.
+- Pode escolher como e quando repassar chamadas de métodos para o objeto real.
+  - **Proxy Virtual:** controla acesso a recursos que podem ser caros para criação ou utilização.
+  - **Proxy Remoto:** controla acesso a recursos que estão em servidores remotos.
+  - **Proxy de Proteção:** controla acesso a recursos que possam necessitar autenticação ou permissão.
+  - **Proxy Inteligente:** além de controlar acesso ao objeto real, também executa tarefas adicionais para saber quando e como executar determinadas ações.
