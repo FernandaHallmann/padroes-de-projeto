@@ -93,6 +93,14 @@
 - Fornece uma interface unificada para um conjunto de interfaces em um subsistema. Define uma interface de nível mais alto que torna o subsistema mais fácil de ser usado.
 - Facilita a vida do código ao criar um objeto de fachada para um sistema mais complexo.
 
+#### Flyweight
+
+- Usa compartilhamento para suportar eficientemente grandes quantidades de objetos de forma granular.
+- Padrão de otimização. Tende a deixar a aplicação mais complexa.
+- Resolve o problema de desempenho dividindo o estado de um objeto em *intrínseco* e *extrínseco*:
+    - **Intrínseco:** estado que geralmente não muda ou que muda muito pouco.
+    - **Extrínseco:** estado que pode ser movido para fora do objeto por mudar frequentemente.
+
 #### Proxy
 
 - Fornece um substituto ou marcador de localização para outro objeto para controlar o acesso a esse objeto.
