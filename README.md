@@ -118,6 +118,11 @@
 - Encapsula uma solicitação como um objeto, desta forma permite que você parametrize clientes com diferentes solicitações, enfileire ou registre (log) solicitações e suporte operações que podem ser desfeitas.
 - Transforma uma solicitação (um comando) em um objeto com toda a informação necessária para sua execução.
 
+#### Memento
+
+- Captura e externaliza um estado interno de um objeto, de modo que o mesmo possa ser restaurado para este estado.
+- Garante o encapsulamento e consistência nos backups.
+
 #### Strategy
 
 - Define uma família de algoritmos, encapsula cada um deles e os faz intercambiáveis. Permite que o algoritmo varie independentemente dos clientes que o utilizam.
