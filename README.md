@@ -123,6 +123,11 @@
 - Captura e externaliza um estado interno de um objeto, de modo que o mesmo possa ser restaurado para este estado.
 - Garante o encapsulamento e consistência nos backups.
 
+#### State
+
+- Permite que um objeto altere seu comportamento quando seu estado interno muda. O objeto parecerá ter mudado sua classe.
+- Evita condicionais quando um objeto contexto muda de comportamento dependendo do seu estado.
+
 #### Strategy
 
 - Define uma família de algoritmos, encapsula cada um deles e os faz intercambiáveis. Permite que o algoritmo varie independentemente dos clientes que o utilizam.
