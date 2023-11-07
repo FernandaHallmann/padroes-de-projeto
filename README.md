@@ -87,3 +87,8 @@
 - Agrega responsabilidades adicionais a um objeto dinamicamente. Fornece uma alternativa flexível ao uso de subclasses para extensão de funcionalidades.
 - Usa composição ao invés de herança.
 - Usado para adicionar funcionalidades a objetos em tempo de execução.
+
+#### Façade
+
+- Fornece uma interface unificada para um conjunto de interfaces em um subsistema. Define uma interface de nível mais alto que torna o subsistema mais fácil de ser usado.
+- Facilita a vida do código ao criar um objeto de fachada para um sistema mais complexo.
