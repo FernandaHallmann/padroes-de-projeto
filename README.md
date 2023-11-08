@@ -144,6 +144,11 @@
 - Captura e externaliza um estado interno de um objeto, de modo que o mesmo possa ser restaurado para este estado.
 - Garante o encapsulamento e consistência nos backups.
 
+#### Observer
+
+- Define uma dependência um para muitos entre objetos, de modo que, quando um objeto muda de estado, todos os seus dependentes são automaticamente notificados e atualizados.
+- Implementado com dois tipos de objetos: objetos **observáveis (Observable)** e objetos **observadores (Observer)**.
+
 #### State
 
 - Permite que um objeto altere seu comportamento quando seu estado interno muda. O objeto parecerá ter mudado sua classe.
