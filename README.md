@@ -165,3 +165,7 @@
 - Separa a regra de negócio de variações de algoritmos que possam existir.
 - Define uma família de algoritmos cada uma com uma variação diferente.
 - Permite a criação de vários algoritmos sem a necessidade de condicionais.
+
+#### Visitor
+
+- Representa uma operação a ser executada sobre os elementos da estrutura de um objeto. Permite que você separe um algoritmo dos elementos sobre os quais opera.
