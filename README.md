@@ -113,6 +113,15 @@
 
 ### Behavioural
 
+#### Chain of responsibility
+
+- Evita o acoplamento do remetente de uma solicitação ao seu destinatário, dando a mais de um objeto a chance de tratar a solicitação. Encadeia os objetos receptores e passa a solicitação ao longo da cadeia até que um objeto a trate.
+- Usado quando uma requisição precisa passar por uma sequência de operações até ser totalmente tratada.
+- Permite que um objeto **trate** a requisição e chame o **próximo** objeto da cadeia.
+- Permite que um objeto **não trate** a requisição e chame o **próximo** objeto da cadeia.
+- Permite que um objeto **trate** a requisição e **finalize** a cadeia.
+- Permite que um objeto **não trate** a requisição e **finalize** a cadeia.
+
 #### Command
 
 - Encapsula uma solicitação como um objeto, desta forma permite que você parametrize clientes com diferentes solicitações, enfileire ou registre (log) solicitações e suporte operações que podem ser desfeitas.
