@@ -128,6 +128,11 @@
 - Permite que um objeto **trate** a requisição e **finalize** a cadeia.
 - Permite que um objeto **não trate** a requisição e **finalize** a cadeia.
 
+#### Iterator
+
+- Fornece uma maneira de acessar sequencialmente os elements de um objeto agregado sem expor sua representação subjacente.
+- Desacopla a intenção principal do objeto do modo como a sua iteração é realizada (delega a iteração para outro objeto).
+
 #### Command
 
 - Encapsula uma solicitação como um objeto, desta forma permite que você parametrize clientes com diferentes solicitações, enfileire ou registre (log) solicitações e suporte operações que podem ser desfeitas.
