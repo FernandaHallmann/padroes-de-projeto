@@ -118,6 +118,12 @@
 - Encapsula uma solicitação como um objeto, desta forma permite que você parametrize clientes com diferentes solicitações, enfileire ou registre (log) solicitações e suporte operações que podem ser desfeitas.
 - Transforma uma solicitação (um comando) em um objeto com toda a informação necessária para sua execução.
 
+#### Mediator
+
+- Define um objeto que encapsula como um conjunto de objetos interage. Promove o acoplamento fraco ao evitar que os objetos se refiram explicitamente uns aos outros.
+- Desacopla objetos que estariam intimamente ligados.
+- Centraliza toda a comunicação em apenas um objeto.
+
 #### Memento
 
 - Captura e externaliza um estado interno de um objeto, de modo que o mesmo possa ser restaurado para este estado.
