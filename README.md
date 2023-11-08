@@ -113,6 +113,12 @@
 
 ### Behavioural
 
+#### Template Method
+
+- Define o esqueleto de um algoritmo em uma operação, postergando a definição de alguns passos para subclasses. Permite que as subclasses redefinam certos passos de um algoritmo sem mudar sua estrutura.
+- Mantém a ordem de chamada de métodos no algoritmo.
+- Permite que as subclasses alterem apenas os passos necessários para concluir o algoritmo.
+
 #### Chain of responsibility
 
 - Evita o acoplamento do remetente de uma solicitação ao seu destinatário, dando a mais de um objeto a chance de tratar a solicitação. Encadeia os objetos receptores e passa a solicitação ao longo da cadeia até que um objeto a trate.
